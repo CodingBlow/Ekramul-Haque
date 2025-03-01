@@ -1,0 +1,49 @@
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateY(-50px); /* Adjust spacing */
+}
+
+.whatsapp-float:hover {
+    transform: translateY(-80px) scale(1.1);
+    color: white;
+    text-decoration: none;
+}
+
+/* Phone Floating Button */
+.phone-float {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateY(20px); /* Adjust spacing */
+}
+
+.phone-float:hover {
+    transform: translateY(20px) scale(1.1);
+    color: white;
+    text-decoration: none;
+}
